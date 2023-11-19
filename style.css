@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#logo {
+    color: #ffa500; /* Orange for 'Bit' */
+}
+
+#logo span {
+    color: #0000ff; /* Blue for 'Accelerate' */
+}
+
+#live-price, #converter, #tx-accelerator {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#price-display {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: calc(100% - 22px);
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e69500;
+}
