@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitAccelerate - Bitcoin Live Price and Transaction Accelerator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="logo"><span>Bit</span>Accelerate</h1>
+    </header>
+    <main>
+        <section id="live-price">
+            <h2>Live Bitcoin Price</h2>
+            <div id="price-display">Loading...</div>
+            <canvas id="price-chart"></canvas>
+        </section>
+        <section id="converter">
+            <h2>Bitcoin to USD Converter</h2>
+            <input type="number" id="btc-input" placeholder="Enter Bitcoin amount">
+            <div id="usd-output">Equivalent USD: $0</div>
+        </section>
+        <section id="tx-accelerator">
+            <h2>Transaction Accelerator</h2>
+            <input type="text" id="txid-input" placeholder="TXID (Transaction ID)">
+            <button id="accelerate-btn">Accelerate</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
